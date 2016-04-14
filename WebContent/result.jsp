@@ -53,7 +53,8 @@ List<Responses> es = s.createCriteria(Responses.class).addOrder(Order.asc(sort))
            </br>
                <button class=" s12 m6 offset-m6 btn waves-effect waves-light indigo accent-4 centre-align hoverable" type="submit" name="result.jsp">
                Sort
-               </button></form> </div>       
+               </button>
+               </form> </div>       
                 
         <!-- feedback form starts here -->
         <div class="row   lime lighten-4 hoverable " >

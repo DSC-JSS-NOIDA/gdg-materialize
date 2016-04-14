@@ -59,7 +59,7 @@
                <div class="col s12 m6 offset-m3"><h6 class="center" style="padding-top:20px">Select a particular event to view feedback.</h6></div>
             </div>
             </div>
-            <!-- foooter starts here -->
+            <!-- footer starts here -->
         <footer class="page-footer light-blue darken-1 footer_row" style="margin-bottom: 0px">
                 <div class="row footer_row" style="margin-bottom: 0px">
                     <div class="col l6 s12">
