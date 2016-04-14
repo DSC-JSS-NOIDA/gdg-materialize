@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 27 Jan, 2016 9:02:34 PM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="org.gdgjss.model.Responses" table="responses" catalog="gdg" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="string">
+            <column name="name" length="50" not-null="true" />
+        </property>
+        <property name="email" type="string">
+            <column name="email" length="50" not-null="true" />
+        </property>
+        <property name="institute" type="string">
+            <column name="institute" length="50" not-null="true" />
+        </property>
+        <property name="trade" type="string">
+            <column name="trade" length="20" not-null="true" />
+        </property>
+        <property name="year" type="string">
+            <column name="year" length="20" not-null="true" />
+        </property>
+        <property name="eval1" type="int">
+            <column name="eval1" not-null="true" />
+        </property>
+        <property name="eval2" type="int">
+            <column name="eval2" not-null="true" />
+        </property>
+        <property name="eval3" type="int">
+            <column name="eval3" not-null="true" />
+        </property>
+        <property name="eval4" type="int">
+            <column name="eval4" not-null="true" />
+        </property>
+        <property name="ques1" type="string">
+            <column name="ques1" length="10" not-null="true" />
+        </property>
+        <property name="ques2" type="string">
+            <column name="ques2" length="10" not-null="true" />
+        </property>
+        <property name="ques3" type="string">
+            <column name="ques3" length="10" not-null="true" />
+        </property>
+        <property name="suggestion" type="string">
+            <column name="suggestion" length="50" not-null="true" />
+        </property>
+        <property name="event" type="string">
+            <column name="event" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>
